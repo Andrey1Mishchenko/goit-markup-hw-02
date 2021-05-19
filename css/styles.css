@@ -1,0 +1,98 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --third-color: #FFFFFF;
+    --focus-color: #2196F3;
+    --hero-bcg: #2F303A;
+    --footer-bcg: #2F303A;
+    --studio-text-color: #000000;
+    --contacts-text-color: #757575;
+    --footer-contact: rgba(255, 255, 255, 0.6)
+}
+
+body {
+font-family: Roboto, Ralewey, sans-serif;
+font-style: normal;
+color: var(--primary-text-color);
+background-color: var(--third-color);
+}
+
+/* стили для header */
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--focus-color);
+    text-decoration: none;
+
+}
+
+.header .studio {
+color: var(--studio-text-color);
+}
+
+.site-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.site-nav .current {
+    color: var(--focus-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--focus-color);
+}
+
+.contacts .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--contacts-text-color);
+    text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--focus-color);
+}
+
+/* стили для footer */
+
+.footer {
+background-color: var(--footer-bcg);
+}
+
+.footer .studio {
+    color: var(--third-color);
+}
+
+.address .map {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.address .link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footer-contact);
+    text-decoration: none;
+}
