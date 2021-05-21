@@ -165,6 +165,10 @@ color: var(--studio-text-color);
     color: var(--contacts-text-color);
 }
 
+.team {
+    background-color: var(--filter-button-color);
+}
+
 .activities .title,
 .team > .title {
     font-weight: 700;
