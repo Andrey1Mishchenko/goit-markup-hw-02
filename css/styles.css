@@ -11,11 +11,12 @@
     --filter-button-color: #F5F4FA;
 }
 
-/* * {
+* {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+}
 
 /* глобальные стили. шрифт Ralewey указан как альтернативный */
 
