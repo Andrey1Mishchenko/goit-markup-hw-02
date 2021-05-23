@@ -1,14 +1,14 @@
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
-    --third-color: #FFFFFF;
-    --focus-color: #2196F3;
-    --hero-bcg: #2F303A;
-    --footer-bcg: #2F303A;
+    --third-color: #ffffff;
+    --focus-color: #2196f3;
+    --hero-bcg: #2f303a;
+    --footer-bcg: #2f303a;
     --studio-text-color: #000000;
     --contacts-text-color: #757575;
     --footer-contact: rgba(255, 255, 255, 0.6);
-    --filter-button-color: #F5F4FA;
+    --filter-button-color: #f5f4fa;
 }
 
 * {
@@ -21,7 +21,7 @@
 /* глобальные стили. шрифт Ralewey указан как альтернативный */
 
 body {
-    font-family: Roboto, Ralewey, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: var(--primary-text-color);
     background-color: var(--third-color);
@@ -38,11 +38,10 @@ body {
     letter-spacing: 0.03em;
     color: var(--focus-color);
     text-decoration: none;
-
 }
 
 .header .studio {
-color: var(--studio-text-color);
+    color: var(--studio-text-color);
 }
 
 .site-nav .link {
@@ -102,7 +101,7 @@ color: var(--studio-text-color);
 
 .address .map:hover,
 .address .map:focus {
-    color: var(--focus-color);   
+    color: var(--focus-color);
 }
 
 .address .link {
@@ -112,7 +111,7 @@ color: var(--studio-text-color);
 
 .address .link:hover,
 .address .link:focus {
-    color: var(--focus-color);   
+    color: var(--focus-color);
 }
 
 /* стили index.html main  */
@@ -147,7 +146,7 @@ color: var(--studio-text-color);
 .button:hover,
 .button:focus {
     cursor: pointer;
-    background: #188CE8;
+    background: #188ce8;
 }
 
 .advantages .title {
@@ -223,4 +222,3 @@ color: var(--studio-text-color);
     letter-spacing: 0.03em;
     color: var(--contacts-text-color);
 }
-
